@@ -16,10 +16,10 @@ const Navbar = () => {
                 <h1>LUCKY'S PORTFOLIO</h1>
             </div>
             <div className='buttons-container'>
-                <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/lucky-okirie" target="_blank" rel="noopener noreferrer">
                   <FaLinkedin size={40} color='black'/>
                 </a>
-                <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/emmanuel1304" target="_blank" rel="noopener noreferrer">
                   <FaGithub size={40} color='black'/>
                 </a>
             </div>
