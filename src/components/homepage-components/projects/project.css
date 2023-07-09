@@ -1,0 +1,18 @@
+.project{ 
+    margin-top: 5rem;
+    padding: 2rem 2rem;
+}
+
+.main-container{ 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1200px){ 
+    .main-container{ 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

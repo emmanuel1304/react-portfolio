@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.skills { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    width: 100%;
+}
+
+.skills-header h1{ 
+    font-family: 'Itim';
+}
+
+.skills-body{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 3rem;
+    height: 100%;
+}
+
+@media screen and (max-width: 1050px){ 
+    .skills-body{ 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

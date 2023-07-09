@@ -1,38 +1,27 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  padding: 0 3rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: start;
+  
+
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gradient-bg{ 
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(circle at 13% 23%, rgba(255, 255, 255, 1) 14%, rgba(63, 52, 63, 1) 100%);
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(circle at 13% 23%, rgba(255, 255, 255, 1) 14%, rgba(63, 52, 63, 1) 100%);
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(circle at 13% 23%, rgba(255, 255, 255, 1) 14%, rgba(63, 52, 63, 1) 100%);
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(circle at 13% 23%, rgba(255, 255, 255, 1) 14%, rgba(63, 52, 63, 1) 100%);
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(circle at 13% 23%, rgba(255, 255, 255, 1) 14%, rgba(63, 52, 63, 1) 100%);
+
 }

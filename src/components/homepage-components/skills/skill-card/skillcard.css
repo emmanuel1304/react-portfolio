@@ -1,0 +1,43 @@
+.skillcard{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    padding: 0.5rem 0.5rem;
+    margin: 0 0.7rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+
+}
+
+.skillcard-image{ 
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.skillcard-image img{ 
+    width: 100%;
+    height: 180px;
+}
+
+.star{ 
+    color: gold;
+}
+
+.skillcard-text{ 
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: auto;
+  }
+  
+.stars {
+    display: flex;
+}
